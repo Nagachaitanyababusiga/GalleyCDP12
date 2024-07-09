@@ -1,0 +1,30 @@
+.cont-1 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 60%;
+  height: 40%;
+}
+.lister {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 575px) {
+  .header {
+    font-size: 12px;
+  }
+  .para {
+    font-size: 8px;
+  }
+}
